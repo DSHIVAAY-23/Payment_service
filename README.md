@@ -27,6 +27,9 @@ cargo install grpcio-compiler
 cargo install tonic-build
 
 Running the Payment Service
+
+ ```shell
+
 cargo run --bin payments-server
 cargo run --bin payments-client
 
